@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useCallback, useState, useEffect, useRef } from "react";
-import "../App.css";
+import "../../App.css";
 
 function PasswordGenerator() {
   const [Password, setPassword] = useState("");

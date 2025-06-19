@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.3.2",
+    "@radix-ui/react-navigation-menu": "^1.2.13",
     "@radix-ui/react-select": "^2.2.5",
     "@radix-ui/react-slider": "^1.3.5",
     "@radix-ui/react-slot": "^1.2.3",
@@ -24,6 +25,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
+    "react-router-dom": "^7.6.2",
     "shadcn": "^2.6.4",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.9"

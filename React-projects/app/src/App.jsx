@@ -1,14 +1,9 @@
 import React from "react";
-import CurrencyProject from "./projects/currencyConverter/CurrencyProject";
-import CurrencyConverterApp from "./projects/currencyConverter/CurrencyConverterApp";
-// import PasswordGenerator from '@/projects/passwordGenerator/PasswordGenerator'
 
 function App() {
   return (
     <div>
-      {/* <PasswordGenerator />  */}
-      {/* <CurrencyProject /> */}
-      <CurrencyConverterApp/>
+      <h1>hi from app</h1>
     </div>
   );
 }

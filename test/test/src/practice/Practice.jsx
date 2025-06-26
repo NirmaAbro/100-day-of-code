@@ -405,6 +405,14 @@ function practice() {
   //   });
   // }, []);
 
+  // useEffect(() => {
+  //   let i = 0;
+  //   do {
+  //     console.log(i);
+  //     i++;
+  //   } while (i < 3);
+  // }, []);
+
   const [users, setUsers] = useState([]);
   async function fetchData() {
     try {

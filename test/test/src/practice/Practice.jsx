@@ -435,6 +435,27 @@ function practice() {
     fetchData();
   }, []);
 
+
+  // function armstrong(num) {
+  //   let numstr = String(num);
+  //   let length = numstr.length;
+  //   let sum = 0;
+  //   // console.log("length is", length);
+  //   for (let i = 0; i < length; i++) {
+  //     let digit = Number(numstr[i]);
+  //     console.log("digit is", digit);
+  //     sum += Math.pow(digit, length);
+  //   }
+  //   console.log("rslt is", sum);
+
+  //   if (sum === num) {
+  //     console.log(`${num} is an armstrong`);
+  //   } else {
+  //     console.log(`${num} is not an armstrong`);
+  //   }
+  // }
+
+  armstrong(153);
   return (
     <>
       {users.map((item, index) => {
